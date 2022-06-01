@@ -12,7 +12,7 @@ function App() {
     setItems((prevValue) => {
       return [...prevValue, inputText];
     });
-    
+    setInputText("");
   }
 
   return (
